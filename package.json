@@ -3,5 +3,8 @@
     "openzeppelin-solidity": "2.3",
     "truffle-hdwallet-provider": "^1.0.17",
     "web3": "^1.2.1"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.26"
   }
 }
