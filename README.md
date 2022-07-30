@@ -15,6 +15,7 @@ node -v
 # Check NPM version
 npm -v
 ```
+Note: Use node 11
 
 
 2. **Truffle v5.X.X** - A development framework for Ethereum. 
@@ -24,7 +25,7 @@ npm uninstall -g truffle
 # Install
 npm install -g truffle
 # Specify a particular version
-npm install -g truffle@5.0.2
+sudo npm install -g truffle@5.0.2
 # Verify the version
 truffle version
 ```
@@ -68,6 +69,7 @@ npm install
 ```bash
 # For starting the development console
 truffle develop
+sudo truffle develop --network development
 # truffle console
 
 # For compiling the contract, inside the development console, run:
